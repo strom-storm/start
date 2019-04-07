@@ -1,0 +1,155 @@
+
+
+.blok {
+    /* height: 50px; */
+    width: 500px;
+    overflow: hidden;
+}
+
+
+.left1 {
+    /* padding: 0 15px; */
+    float: left;
+    /* height: 30px; */
+    /* width: 100px; */
+    /* margin: 10px; */
+    /* display: block; */
+}
+
+.right1 {
+    /* padding: 0 15px; */
+    float: left;
+    /* height: 30px; */
+    /* width: 100px; */
+    /* margin: 10px; */
+    /* display: block; */
+}
+
+input {
+    padding: 0 15px;
+    width: 150px;
+    height: 40px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+/* button {
+    padding: 0 15px;
+    width: 150px;
+    height: 40px;
+    margin: 10px;
+} */
+
+.blok1 {
+    width: 500px;
+
+}
+
+.kv {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    top: 0px;
+    transition: top 0.5s linear 1s;
+    rotate: (90deg)
+    /* transition: background-color 0.5s linear 1s */
+}
+
+.kv:hover {
+    background-color:blue;
+    top: 30px;
+    /* transition: top 0.5s linear 1s */
+    /* transition: background-color 0.5s linear 1s */
+}
+
+.kv2 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    top: 0px;
+    transition: 0.5s linear 1s
+    /* transition: background-color 0.5s linear 1s */
+}
+
+.kv2:hover {
+    background-color:blue;
+    top: 30px;
+    /* transition: top 0.5s linear 1s */
+    /* transition: background-color 0.5s linear 1s */
+}
+
+.kv3 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    top: 0px;
+    transition: 0.5s case 1s
+    /* transition: background-color 0.5s linear 1s */
+}
+
+.kv3:hover {
+    background-color:blue;
+    top: 30px;
+    /* transition: top 0.5s linear 1s */
+    /* transition: background-color 0.5s linear 1s */
+}
+
+/* @keyframes step {
+    0% {left: 0px    }
+    100% {left: 200px}
+}
+
+.kv {
+    animation: step 1s linear 0.2s infinite 
+}
+
+.kv2 {
+    animation: step 1s linear 0.5s infinite 
+} */
+
+@keyframes step {
+    0% {left: 0px; top: 0px    }
+    50% {top: 200px    }
+    100% {left: 200px; top: 200px}
+}
+
+.kv3 {
+    animation: step 1s linear 1s infinite alternate-reverse paused
+}
+
+@keyframes step {
+    0% {left: 0px; top: 0px    }
+    20% {left: 200px; top: 200px}
+    40% {left: 400px; top: 0px    }
+    60% {left: 600px; top: 200px}
+    80% {left: 800px; top: 0px    }
+    100% {left: 1000px; top: 200px}
+}
+
+.kv {
+    animation: step 1s linear 0.2s infinite alternate
+}
+
+@keyframes step1 {
+    0% {left: 0px; top: 0px    }
+    20% {left: 200px; top: 200px}
+    40% {left: 400px; top: 0px    }
+    60% {left: 600px; top: 200px}
+    80% {left: 800px; top: 0px    }
+    100% {left: 1000px; top: 200px}
+}
+
+.kv {
+    animation: step1 1s linear 0.2s infinite alternate
+}
+
+.blok_ikonka {
+    width: 100px;
+    height: 100px;
+    background-color:orange;
+/* rotate:(90deg); */
+transform: scale(2);
+}
